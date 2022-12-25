@@ -75,3 +75,7 @@ python manage.py runserver
 python manage.py makemigrations
 python manage.py migrate
 ```
+P.s. наполнение БД идет при помощи django command - python manage.py import_phones.
+
+Также сделано автоматическое заполнение поля slug 
+при заполнении через панель администратора.
